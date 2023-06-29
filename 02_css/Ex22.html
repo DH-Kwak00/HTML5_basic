@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #style1 {
+            color: blue;
+            font-style: italic;
+            font-size: 20px;
+            letter-spacing: 2px; /* 글자와 글자 사이 간격 */
+        }
+
+        .style2 {
+            color: orange;
+            font-style: bold;
+            font-size: 18px;
+        }
+
+        .style3 {
+            color: red;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        [문제]
+        1. id="style1"
+            ==> 글자색 파란색, 글자스타일 이탤릭체
+                글자크기 20px, 자간설정 2px
+        2. id="style2"
+            ==> 글자색 오랜지색, 글자스타일 진하게
+                글자크기 18px
+        3. id="style3"
+            ==> 글자색 빨간색, 글자크기 25px
+     -->
+    <h2>id 선택자</h2>
+    <h3 id="style1">스타일1 적용</h3>
+
+    <h2>class 선택자</h2>
+    <h3 class="style2">스타일2 적용</h3>
+
+    <div>
+        <p class="style3">스타일3 적용</p>
+        <p class="style3">스타일3 적용</p>
+    </div>
+
+</body>
+</html>

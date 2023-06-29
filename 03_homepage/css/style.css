@@ -1,0 +1,105 @@
+/* 문서 전체에 대한 디자인 적용 */
+body {
+    font-size: 14px;
+    font-family: 맑은고딕, 명조체;
+}
+
+/* 전체 div 태그에 대한 디자인 적용 */
+#container {
+
+    width: 950px; /* 문서 전체의 폭(가로) 크기 설정 */
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #e8e2ae;
+}
+
+/* header 영역 디자인 적용 */
+#head {
+    height: 208px;
+    margin-top: 0;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* header 영역 중에서 로그인 영역에 대한 디자인 적용 */
+#login {
+    float: right;
+    margin: -20px 20px 0 0;
+    font-size: 12px;
+    word-spacing: 15px;
+    text-shadow: 1px 2px 2px #666;
+}
+
+/* 로그인 영역의 a링크 태그에 디자인 적용 */
+#login a {
+    text-decoration: none;
+    color: #333;
+}
+#login a:hover {
+    color: #f90;
+}
+
+/* header 영역의 제목과 부제목 태그 디자인 적용 */
+header hgroup {
+    position:relative;
+    top: 60px;
+    left: 180px;
+}
+/* header 영역의 주제목 디자인 적용 */
+header h1 {
+    font-size: 2.5em;
+    color: #f2cb78;
+    text-shadow: 1px 2px 2px #000;
+}
+
+/* header 영역의 ㅂ제목 디자인 적용 */
+header h2 {
+    font-size: 2.5em;
+    color: #e18048;
+    text-shadow: 1px 2px 2px #000;
+}
+
+/* 네비게이션 영역 디자인 적용 */
+#navi {
+    background-color: #c08f5a;
+    margin-top: -15px;
+    width: 950px;
+    height: 50px;
+}
+
+#navi ul {
+    height: 40px;
+    padding-top: 10px;
+}
+
+#navi li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+#navi a {
+    padding: 10px 120px 5px 60px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* a 태그에 마우스 오버시, 포커스가 올라갔을 때 디자인 */
+#navi a:hover, #navi a:active, #navi a:focus {
+    text-shadow: 0px 2px 2px #000;
+    color: #fc0;
+}
+
+/* section 영역의 디자인 적용 */
+#content {
+    background-color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 720px;
+    float: left;
+}
+
+#content article {
+    text-align: justify; /* 글자를 양쪽으로 균등하게 정렬 */
+    
+}
